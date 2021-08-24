@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.methodTitle {
+  font-size: 17px;
+  color: #6E6F72;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.methoList {
+  margin-top: 25px;
+}
+
+.methodItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.methIcon {
+  margin-right: 15px;
+}
+
+.methIcon i {
+  color: #A67C2C;
+}
